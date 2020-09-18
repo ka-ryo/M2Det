@@ -13,7 +13,7 @@ model = dict(
         num_scales = 6,
         sfam = True,
         smooth = True,
-        class_names=['class_a'],  # class names should be specified
+        class_names=['mouse','kyebord'],  # class names should be specified
         num_classes=81, # this value is invalid if a class name is specified.
     ),
     rgb_means = (104, 117, 123),
